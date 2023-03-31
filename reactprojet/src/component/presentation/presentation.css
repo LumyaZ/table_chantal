@@ -1,0 +1,32 @@
+.txtpresentationchef,.txtpresentationresto{
+    background-color:  rgb(255, 255, 255);
+    color: black;
+    margin-top: -5em;
+    position: fixed;
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+    padding:1em 0.2em 1em 0.2em;
+    z-index:10;
+    height: 5em;
+
+}
+.txtpresentationresto{
+   margin-left: 50%;
+
+}
+
+
+.txtpresentationchef:hover,.txtpresentationresto:hover{
+    border: 5px solid black;
+    transform: rotate(2deg);
+    padding:1.3em 0.2em 1.3em 0.2em;
+    z-index:10;}
+
+.presentation{
+    margin-top: -30em;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 6em;
+}

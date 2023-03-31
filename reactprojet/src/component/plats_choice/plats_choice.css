@@ -1,0 +1,85 @@
+.CategorieEntrées,.CategoriePlats,.CategorieDessert{
+    border: 0.3em solid black;
+    padding: 3em 6em 3em 6em;
+    border-radius: 10%;
+    font-size: 1.15em;
+    color: white;
+    height: 7em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.choice_categorie_plats
+  {
+    margin-top: 1em;
+    
+}
+.btnCarte {
+    justify-content: center;
+    display: flex;
+    height: 10em;
+    
+}
+.CategorieDessert:hover,.CategorieEntrées:hover,.CategoriePlats:hover{
+    font-size: 1.20em;
+    border: 0.3em solid rgb(57, 57, 57);
+    height: 8em;
+}
+.active{
+    font-size: 1.20em;
+    border: 0.3em solid rgb(255, 255, 255);
+    height: 8em;
+}
+
+
+.CategorieEntrées{
+    background-image: url("./../../../public/img/carte/entrees/crevettes_grillees.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.CategorieDessert{
+    background-image: url("./../../../public/img/carte/desserts/cafe_gourmand.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.CategoriePlats{
+    margin-left: 2em;
+    margin-right: 2em;
+    background-image: url("./../../../public/img/carte/plats/pates_carbo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img_cartes {
+    height: 6em;
+    width: 6em;
+}
+.affiche_cartes{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.carte {
+  margin-left: 2em;
+  margin-right: 2em;
+  align-items: center;
+  text-align: center;
+  width: 15%;
+  background-color: beige;
+  border: 0.2em solid black;
+  border-radius: 5%;
+}  
+
+.carte:hover {
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: rgb(230, 224, 200);
+    border: 0.2em solid brown;
+    width: 18%;
+}  
+ 
+
+

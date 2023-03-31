@@ -1,0 +1,53 @@
+.formContact{
+    margin-left: 15%;
+    background-color: beige;
+    width: 70%;
+    margin-right: 15%;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+}
+.contactText{
+    width: 100%;
+    border-radius: 1em;
+    border: 2px solid black;
+    float: right;
+    padding: 0.5em;
+}
+.contactTextarea{
+    width: 100%;
+    border-radius: 1em;
+    border: 2px solid black;
+    float: right;
+    padding: 0.5em;
+}
+.form-group{
+    display: flex;
+}
+.btnsubmit{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border: 3px solid brown;
+    border-radius: 1em;
+    color: beige;
+    padding: 0.5em 1em;
+    display: flex;
+    font-size: 1.2em;
+}
+hr{
+    border-top: 0.3em solid brown;
+}
+
+
+.infos{
+    width: 50%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+form{
+    width: 50%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
